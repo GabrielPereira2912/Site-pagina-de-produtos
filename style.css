@@ -1,3 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
 .title{
+    color: #FFD700;
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+a{
+    color: #FFD700;
+    margin: 0.5rem;
+}
+
+table thead{
+    color: #FFD700;
+}
+
+.table{
+    text-align: center;
+    color: white;
+    background-color: #0f0f0f;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    
+}
+
+.nav{
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
 }
